@@ -14,15 +14,15 @@
                                     <input name="name" type="text" class="form-control" placeholder="Name" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">  
                                 </div>
                                 <div class="col-sm-3">
-                                    <label for="" class="form-label">Age</label>
+                                    <label for="" class="form-label">Min Age</label>
                                     <input name="number" type="number" class="form-control" placeholder="Age" value="{{isset($_GET['age']) ? $_GET['age'] : ''}}">  
                                 </div>
                                 <div class="col-sm-3">
                                     <label for="" class="form-label">Gender</label>
                                     <select name="gender" class="form-select">
                                         <option value="">-</option>
-                                        <option value="male" selected="{{isset($_GET['gender']) && $_GET['gender'] == 'male'}}">Male</option>
-                                        <option value="female" selected="{{isset($_GET['gender']) && $_GET['gender'] == 'male'}}">Female</option>
+                                        <option value="male">Male</option>
+                                        <option value="female">Female</option>
                                     </select>
                                 </div>
                                 <div class="col-sm-3">
