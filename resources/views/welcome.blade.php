@@ -11,11 +11,7 @@
                             <div class="row mb-3">
                                 <div class="col-sm-3">
                                     <label for="" class="form-label">Name</label>
-                                    <input name="name" type="text" class="form-control" placeholder="Name" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">  
-                                </div>
-                                <div class="col-sm-3">
-                                    <label for="" class="form-label">Min Age</label>
-                                    <input name="number" type="number" class="form-control" placeholder="Age" value="{{isset($_GET['age']) ? $_GET['age'] : ''}}">  
+                                    <input name="search" type="text" class="form-control" placeholder="Name" value="{{isset($_GET['name']) ? $_GET['name'] : ''}}">  
                                 </div>
                                 <div class="col-sm-3">
                                     <label for="" class="form-label">Gender</label>
